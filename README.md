@@ -1,6 +1,6 @@
 # TestFront
 
-Projeto criado para finz de estudo, criei um banco de dados de usuario, uma dashboard login e cadastro, e criei tambem um SAS de pagmento de uma padaria generica que tenho na frente de casa
+Projeto criado para finz de estudo, criei um banco de dados de usuario, uma dashboard login e cadastro, e criei tambem um SAS de pagmento de uma padaria generica que tenho na frente de casa com produtos e valores ficticios! Ja com conexão ao usuario final e sistema de pagamento totalmente integrado. Utilizei PHP para criação de produtos, Mysqlserver para o banco de dados de users, Ngrok para tunelamento, PHP para o SAS de pagamento do mercado pago, API do mercado pago para o SAS, Angular para dashboard inicial!  
 
 ## Development server
 
