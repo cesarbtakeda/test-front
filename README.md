@@ -52,11 +52,13 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
-## Running php
+## Running php in new terminal
 
 ```php
 php -S login/ localhost:81
 ```
+
+## Running Database in new terminal
 
 ```mysql
 mysql -u root -p
