@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dashboard - Navegação</title>
 <style>
-  /* Reset */
+  
   *, *::before, *::after {
     margin: 0; padding: 0; box-sizing: border-box;
   }
