@@ -1,0 +1,112 @@
+
+body, h1, h2, h3, h4, p, div, form { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance:none;margin:0;}
+input[type=number]{-moz-appearance:textfield;}
+header {
+    text-align: center;
+    background: rgba(255, 153, 51, 0.9);
+    padding: 20px;
+    color: white;
+    border-bottom: 5px solid #fff3e0;
+}
+header h1 { font-size: 2.5em; margin-bottom: 5px; }
+header h2 { font-size: 1.5em; }
+.carrinho-btn {
+    position: absolute;
+    top: 140px;
+    right: 15px;
+    background-color: #ff7043;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+.carrinho-btn:hover { background-color: #ff5722; transform: translateY(-2px); }
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.mensagem { color: green; text-align:center; margin-bottom:20px; font-weight:bold; }
+.erro { color:red; text-align:center; margin-bottom:20px; font-weight:bold; }
+label { font-weight:bold; margin-right:10px; }
+input[type="text"] { padding:8px; width:250px; border-radius:5px; border:1px solid #ccc; }
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff3e0;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.produto:hover { transform: scale(1.02); }
+.produto img { width: 120px; height: 120px; object-fit: cover; border-radius: 10px; border: 2px solid #fff; }
+.produto div { flex: 1; padding-right: 20px; }
+.produto h4 { font-size: 1.4em; margin-bottom: 5px; }
+.produto p { margin-bottom: 10px; font-weight:bold; }
+.produto input[type="number"] { width:70px; padding:5px; border-radius:5px; border:1px solid #ccc; margin-left:5px; }
+.produto button {
+    background: #ff9800;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:50px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+.produto button:hover { background:#fb8c00; transform: translateY(-2px); }
+footer { text-align:center; margin-top:30px; padding:20px; background: rgba(255,153,51,0.9); color:white; border-top: 5px solid #fff3e0; border-radius:0 0 15px 15px; }
+
+/*Fim da classe Produto */
+
+.salgados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff3e0;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.salgados:hover { transform: scale(1.02); }
+.salgados img { width: 120px; height: 120px; object-fit: cover; border-radius: 10px; border: 2px solid #fff; }
+.salgados div { flex: 1; padding-right: 20px; }
+.salgados h4 { font-size: 1.4em; margin-bottom: 5px; }
+.salgados p { margin-bottom: 10px; font-weight:bold; }
+.salgados input[type="number"] { width:70px; padding:5px; border-radius:5px; border:1px solid #ccc; margin-left:5px; }
+.salgados button {
+    background: #ff9800;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:50px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+.salgados button:hover { background:#fb8c00; transform: translateY(-2px); }
+footer { text-align:center; margin-top:30px; padding:20px; background: rgba(255,153,51,0.9); color:white; border-top: 5px solid #fff3e0; border-radius:0 0 15px 15px; }
+
+

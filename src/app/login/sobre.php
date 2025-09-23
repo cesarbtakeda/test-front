@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dashboard - Navegação</title>
+<style>
+  /* Reset */
+  *, *::before, *::after {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .dashboard {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    max-width: 600px;
+    width: 100%;
+    padding: 40px 50px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    position: relative;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    padding: 15px 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(238, 9, 121, 0.5);
+    transition: all 0.3s ease;
+    user-select: none;
+    overflow: hidden;
+  }
+
+  nav a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -25%;
+    width: 50%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-25deg) translateX(-100%);
+    transition: transform 0.5s ease;
+    pointer-events: none;
+  }
+
+  nav a:hover::before {
+    transform: skewX(-25deg) translateX(150%);
+  }
+
+  nav a:hover {
+    box-shadow: 0 6px 25px rgba(255, 106, 0, 0.8);
+    color: #fff;
+  }
+
+  section#sobre {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 25px 35px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.1);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0eaea;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  section#sobre h2 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  }
+
+  @media(max-width: 480px) {
+    nav {
+      flex-direction: column;
+      gap: 20px;
+    }
+    nav a {
+      padding: 15px 30px;
+      font-size: 1rem;
+    }
+    .dashboard {
+      padding: 30px 20px;
+    }
+    section#sobre {
+      padding: 20px;
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <main class="dashboard">
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+
+      <p>
+        Somos uma equipe dedicada a criar sistemas simples, seguros e eficientes para facilitar sua vida.
+        Este sistema foi criado para demonstrar navegação e organização básica de páginas.
+        Use os links acima para navegar e conhecer mais sobre nosso projeto.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
+
+    
+ 
