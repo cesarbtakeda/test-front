@@ -64,6 +64,12 @@ php -S login/ localhost:81
 mysql -u root -p
 ```
 
+ ## Running Ngrok in new terminal 
+ 
+ ```ngrok
+ ngrok http 81 
+ ```
+
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
