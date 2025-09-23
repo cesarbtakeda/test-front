@@ -1,6 +1,6 @@
 # TestFront
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Projeto criado para finz de estudo, criei um banco de dados de usuario, uma dashboard login e cadastro, e criei tambem um SAS de pagmento de uma padaria generica que tenho na frente de casa
 
 ## Development server
 
